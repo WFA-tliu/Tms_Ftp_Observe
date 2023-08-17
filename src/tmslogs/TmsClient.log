@@ -1,0 +1,86 @@
+2023-08-14 16:15:56,827 - TmsClient- ::INFO:: - ###########################################################
+
+2023-08-14 16:15:56,828 - TmsClient- ::INFO:: - Wi-Fi Alliance - TMS Client
+2023-08-14 16:15:56,828 - TmsClient- ::INFO:: - Logging started in file - .\tmslogs/TmsClient.log
+2023-08-14 16:15:56,828 - TmsClient- ::INFO:: -  *****    Logger Created Successfully -INFO    *****
+2023-08-14 16:15:56,829 - TmsClient- ::WARNING:: - **  *****    Logger Created Successfully - WARN    ***** **
+2023-08-14 16:15:56,829 - TmsClient- ::ERROR:: - ***  *****    Logger Created Successfully - ERROR    ***** ***
+2023-08-14 16:15:56,830 - TmsClient- ::INFO:: - MyRestClient - Object Created
+2023-08-14 16:15:56,830 - TmsClient- ::INFO:: - TmsLocalStorage - Object Created
+2023-08-14 16:15:56,831 - TmsClient- ::INFO:: - TmsFtpClient - Object Created
+2023-08-14 16:15:56,831 - TmsClient- ::INFO:: - TmsFunctions - Object Created
+2023-08-14 16:15:56,831 - TmsClient- ::INFO:: -  *****   command received - printConfig    *****
+2023-08-14 16:16:35,741 - TmsClient- ::INFO:: - ###########################################################
+
+2023-08-14 16:16:35,742 - TmsClient- ::INFO:: - Wi-Fi Alliance - TMS Client
+2023-08-14 16:16:35,742 - TmsClient- ::INFO:: - Logging started in file - .\tmslogs/TmsClient.log
+2023-08-14 16:16:35,742 - TmsClient- ::INFO:: -  *****    Logger Created Successfully -INFO    *****
+2023-08-14 16:16:35,743 - TmsClient- ::WARNING:: - **  *****    Logger Created Successfully - WARN    ***** **
+2023-08-14 16:16:35,743 - TmsClient- ::ERROR:: - ***  *****    Logger Created Successfully - ERROR    ***** ***
+2023-08-14 16:16:35,743 - TmsClient- ::INFO:: - MyRestClient - Object Created
+2023-08-14 16:16:35,744 - TmsClient- ::INFO:: - TmsLocalStorage - Object Created
+2023-08-14 16:16:35,744 - TmsClient- ::INFO:: - TmsFtpClient - Object Created
+2023-08-14 16:16:35,744 - TmsClient- ::INFO:: - TmsFunctions - Object Created
+2023-08-14 16:16:35,745 - TmsClient- ::INFO:: -  *****   command received - printConfig    *****
+2023-08-14 16:17:04,522 - TmsClient- ::INFO:: - ###########################################################
+
+2023-08-14 16:17:04,523 - TmsClient- ::INFO:: - Wi-Fi Alliance - TMS Client
+2023-08-14 16:17:04,523 - TmsClient- ::INFO:: - Logging started in file - .\tmslogs/TmsClient.log
+2023-08-14 16:17:04,523 - TmsClient- ::INFO:: -  *****    Logger Created Successfully -INFO    *****
+2023-08-14 16:17:04,524 - TmsClient- ::WARNING:: - **  *****    Logger Created Successfully - WARN    ***** **
+2023-08-14 16:17:04,524 - TmsClient- ::ERROR:: - ***  *****    Logger Created Successfully - ERROR    ***** ***
+2023-08-14 16:17:04,524 - TmsClient- ::INFO:: - MyRestClient - Object Created
+2023-08-14 16:17:04,525 - TmsClient- ::INFO:: - TmsLocalStorage - Object Created
+2023-08-14 16:17:04,525 - TmsClient- ::INFO:: - TmsFtpClient - Object Created
+2023-08-14 16:17:04,525 - TmsClient- ::INFO:: - TmsFunctions - Object Created
+2023-08-14 16:17:04,526 - TmsClient- ::INFO:: -  *****   command received - printConfig    *****
+2023-08-14 16:17:39,804 - TmsClient- ::INFO:: - ###########################################################
+
+2023-08-14 16:17:39,805 - TmsClient- ::INFO:: - Wi-Fi Alliance - TMS Client
+2023-08-14 16:17:39,805 - TmsClient- ::INFO:: - Logging started in file - .\tmslogs/TmsClient.log
+2023-08-14 16:17:39,805 - TmsClient- ::INFO:: -  *****    Logger Created Successfully -INFO    *****
+2023-08-14 16:17:39,806 - TmsClient- ::WARNING:: - **  *****    Logger Created Successfully - WARN    ***** **
+2023-08-14 16:17:39,806 - TmsClient- ::ERROR:: - ***  *****    Logger Created Successfully - ERROR    ***** ***
+2023-08-14 16:17:39,806 - TmsClient- ::INFO:: - MyRestClient - Object Created
+2023-08-14 16:17:39,807 - TmsClient- ::INFO:: - TmsLocalStorage - Object Created
+2023-08-14 16:17:39,807 - TmsClient- ::INFO:: - TmsFtpClient - Object Created
+2023-08-14 16:17:39,807 - TmsClient- ::INFO:: - TmsFunctions - Object Created
+2023-08-14 16:17:39,808 - TmsClient- ::INFO:: -  *****   command received - printConfig    *****
+2023-08-14 16:18:42,171 - TmsClient- ::INFO:: - ###########################################################
+
+2023-08-14 16:18:42,172 - TmsClient- ::INFO:: - Wi-Fi Alliance - TMS Client
+2023-08-14 16:18:42,172 - TmsClient- ::INFO:: - Logging started in file - .\tmslogs/TmsClient.log
+2023-08-14 16:18:42,172 - TmsClient- ::INFO:: -  *****    Logger Created Successfully -INFO    *****
+2023-08-14 16:18:42,173 - TmsClient- ::WARNING:: - **  *****    Logger Created Successfully - WARN    ***** **
+2023-08-14 16:18:42,173 - TmsClient- ::ERROR:: - ***  *****    Logger Created Successfully - ERROR    ***** ***
+2023-08-14 16:18:42,173 - TmsClient- ::INFO:: - MyRestClient - Object Created
+2023-08-14 16:18:42,173 - TmsClient- ::INFO:: - TmsLocalStorage - Object Created
+2023-08-14 16:18:42,174 - TmsClient- ::INFO:: - TmsFtpClient - Object Created
+2023-08-14 16:18:42,174 - TmsClient- ::INFO:: - TmsFunctions - Object Created
+2023-08-14 16:18:42,174 - TmsClient- ::INFO:: -  *****   command received - printConfig    *****
+2023-08-14 16:20:27,185 - TmsClient- ::INFO:: - ###########################################################
+
+2023-08-14 16:20:27,185 - TmsClient- ::INFO:: - Wi-Fi Alliance - TMS Client
+2023-08-14 16:20:27,185 - TmsClient- ::INFO:: - Logging started in file - .\tmslogs/TmsClient.log
+2023-08-14 16:20:27,186 - TmsClient- ::INFO:: -  *****    Logger Created Successfully -INFO    *****
+2023-08-14 16:20:27,186 - TmsClient- ::WARNING:: - **  *****    Logger Created Successfully - WARN    ***** **
+2023-08-14 16:20:27,186 - TmsClient- ::ERROR:: - ***  *****    Logger Created Successfully - ERROR    ***** ***
+2023-08-14 16:20:27,187 - TmsClient- ::INFO:: - MyRestClient - Object Created
+2023-08-14 16:20:27,187 - TmsClient- ::INFO:: - TmsLocalStorage - Object Created
+2023-08-14 16:20:27,188 - TmsClient- ::INFO:: - TmsFtpClient - Object Created
+2023-08-14 16:20:27,188 - TmsClient- ::INFO:: - TmsFunctions - Object Created
+2023-08-14 16:20:27,188 - TmsClient- ::INFO:: -  *****   command received - printConfig    *****
+2023-08-14 16:20:27,192 - TmsClient- ::INFO:: - Program Started
+2023-08-14 16:23:53,921 - TmsClient- ::INFO:: - ###########################################################
+
+2023-08-14 16:23:53,921 - TmsClient- ::INFO:: - Wi-Fi Alliance - TMS Client
+2023-08-14 16:23:53,921 - TmsClient- ::INFO:: - Logging started in file - .\tmslogs/TmsClient.log
+2023-08-14 16:23:53,922 - TmsClient- ::INFO:: -  *****    Logger Created Successfully -INFO    *****
+2023-08-14 16:23:53,922 - TmsClient- ::WARNING:: - **  *****    Logger Created Successfully - WARN    ***** **
+2023-08-14 16:23:53,922 - TmsClient- ::ERROR:: - ***  *****    Logger Created Successfully - ERROR    ***** ***
+2023-08-14 16:23:53,923 - TmsClient- ::INFO:: - MyRestClient - Object Created
+2023-08-14 16:23:53,923 - TmsClient- ::INFO:: - TmsLocalStorage - Object Created
+2023-08-14 16:23:53,923 - TmsClient- ::INFO:: - TmsFtpClient - Object Created
+2023-08-14 16:23:53,924 - TmsClient- ::INFO:: - TmsFunctions - Object Created
+2023-08-14 16:23:53,924 - TmsClient- ::INFO:: -  *****   command received - printConfig    *****
+2023-08-14 16:23:53,928 - TmsClient- ::INFO:: - Program Started

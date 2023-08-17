@@ -1,0 +1,33 @@
+{
+    "TmsTestResult": {
+        "PrimaryTestbed": {
+            "Category": "", 
+            "VendorDeviceId": "", 
+            "company": "", 
+            "firmware": "", 
+            "model": ""
+        }, 
+        "TestResult": {
+            "Device": "DUT", 
+            "Message": "OK", 
+            "Result": "PASS"
+        }, 
+        "ExecutionTimeInSeconds": "0", 
+        "TimeStamp": "2023-05-09T05-21-41Z-06:00", 
+        "TmsEventId": "CE_TEST_TED", 
+        "LogFileName": "ftp://wfaftp.tms.wi-fi.org/Mediatek_MT7615/Broadcom_BCM947094-wet/VHT-5.2.23/2023-05-09T05-21-41Z", 
+        "TestCaseId": "VHT-5.2.23", 
+        "Mode": "Sigma", 
+        "ProgramName": "VHT", 
+        "PrimaryTestbedParticipantName": "TestbedCompanyName", 
+        "Dut": {
+            "Category": "STAUT", 
+            "VendorDeviceId": "Broadcom_BCM947094-wet", 
+            "company": "Broadcom", 
+            "firmware": "768015", 
+            "model": "BCM947094-wet"
+        }, 
+        "TMSversion": "2.0", 
+        "DutParticipantName": "DUTCompanyName"
+    }
+}

@@ -1,0 +1,44 @@
+SNIFFER CHECKS LOG - Testcase: VHT-5.2.23 
+
+
+May:09:2023-05:12:03 | SNIFFER ---> sniffer_get_info, 
+May:09:2023-05:12:03 | SNIFFER <-- status,COMPLETE,WfaSnifferVersion,WTS_v9.2.8-VHT_Fedora,SnifferSTA,Other,SwInfo,UnKnown_2.6.38.6-26.rc1.fc15.i686.PAE,WiresharkVersion,1.8.1
+
+ 
+May:09:2023-05:15:35 | SNIFFER ---> sniffer_control_start,filename,_5223-step5,channel,52,bandwidth,80 
+May:09:2023-05:15:35 | SNIFFER <-- status,COMPLETE
+
+ 
+May:09:2023-05:20:25 | SNIFFER ---> sniffer_control_stop, 
+May:09:2023-05:20:26 | SNIFFER <-- status,COMPLETE
+
+ 
+May:09:2023-05:20:26 | SNIFFER ---> sniffer_control_filter_capture,infile,_5223-step5,outfile,5223-step5,srcmac,00:90:4c:27:f1:85,framename,beacon,nframes,6,order,last 
+May:09:2023-05:20:43 | SNIFFER <-- status,COMPLETE,FilterStatus,SUCCESS,FrameCount,6
+
+
+ 
+May:09:2023-05:20:43 | SNIFFER ---> sniffer_control_field_check,filename,_5223-step5,srcmac,00:90:4c:27:f1:85,framename,beacon,CSA_IE,1 
+May:09:2023-05:20:45 | SNIFFER <-- status,COMPLETE,CheckResult,SUCCESS
+
+ 
+May:09:2023-05:20:45 | SNIFFER ---> sniffer_control_field_check,filename,_5223-step5,srcmac,00:90:4c:27:f1:85,framename,beacon,CSW_IE,1 
+May:09:2023-05:20:49 | SNIFFER <-- status,COMPLETE,CheckResult,SUCCESS
+
+ 
+May:09:2023-05:20:49 | SNIFFER ---> sniffer_control_field_check,filename,_5223-step5,srcmac,00:90:4c:27:f1:85,framename,beacon,CSW_IE_WB,1 
+May:09:2023-05:20:53 | SNIFFER <-- status,COMPLETE,CheckResult,SUCCESS
+
+ 
+May:09:2023-05:21:01 | SNIFFER ---> sniffer_control_start,filename,_5223-step5_2,channel,52,bandwidth,80 
+May:09:2023-05:21:02 | SNIFFER <-- status,COMPLETE
+
+ 
+May:09:2023-05:21:36 | SNIFFER ---> sniffer_control_stop, 
+May:09:2023-05:21:36 | SNIFFER <-- status,COMPLETE
+
+ 
+May:09:2023-05:21:36 | SNIFFER ---> sniffer_control_filter_capture,infile,_5223-step5_2,outfile,5223-step5_2,srcmac,00:90:4C:27:F1:F4,framename,anydata,nframes,200 
+May:09:2023-05:21:37 | SNIFFER <-- status,COMPLETE,FilterStatus,NoPacketsFound
+
+ 

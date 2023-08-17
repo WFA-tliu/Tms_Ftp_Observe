@@ -1,0 +1,405 @@
+2023-05-09 05:12:02.229 - INFO - ###########################################################
+
+2023-05-09 05:12:02.229 - INFO - WiFiTestSuite Version [10.20.3]
+2023-05-09 05:12:02.230 - INFO - Logging started in file - ./log/VHT-5.2.23_May-09-2023__05-12-02/log_VHT-5.2.23.log
+2023-05-09 05:12:02.230 - INFO - --------------------------------------------------------------------------------
+2023-05-09 05:12:02.230 - INFO - Test Info
+2023-05-09 05:12:02.230 - INFO - --------------------------------------------------------------------------------
+2023-05-09 05:12:02.230 - INFO - Test Prog Name    : VHT
+2023-05-09 05:12:02.232 - INFO - Test ID           : VHT-5.2.23
+2023-05-09 05:12:02.232 - INFO - Test Usermode     : precert 
+2023-05-09 05:12:02.232 - INFO - Test CmdPath      : ..\cmds\WTS-VHT
+2023-05-09 05:12:02.232 - INFO - Test InitFile     : AllInitConfig_VHT.txt
+2023-05-09 05:12:02.233 - INFO - Test TB File      : "VHT-Testbed-APs.txt"
+2023-05-09 05:12:02.233 - INFO - Test Start Time   : 2023-05-09 05:12:02
+2023-05-09 05:12:02.233 - INFO - --------------------------------------------------------------------------------
+2023-05-09 05:12:02.233 - INFO - Initializing FTP server
+2023-05-09 05:12:02.234 - INFO - FTP server path: C:\Wi-FiTestSuite_10.20.3\bin\log\VHT-5.2.23_May-09-2023__05-12-02
+2023-05-09 05:12:02.237 - INFO - Starting FTP server on 0.0.0.0:2128
+2023-05-09 05:12:02.739 - INFO - ---------------------------------------
+2023-05-09 05:12:02.740 - INFO - Processing DUTInfo.txt file....
+2023-05-09 05:12:02.742 - INFO - ---------------------------------------
+
+2023-05-09 05:12:02.766 - INFO - Processing MasterTestInfo.xml file....
+2023-05-09 05:12:02.766 - INFO - ---------------------------------------
+
+2023-05-09 05:12:02.812 - INFO - Testplan version=WTS-VHT-Testplan-v2.8
+2023-05-09 05:12:02.822 - INFO - 
+         Testcase Init File = AllInitConfig_VHT.txt 
+
+2023-05-09 05:12:02.822 - INFO - Processing AllInitConfig_VHT.txt file....
+2023-05-09 05:12:02.823 - INFO - ---------------------------------------
+
+2023-05-09 05:12:02.864 - INFO - stream1 7598 Frames / second
+2023-05-09 05:12:02.864 - INFO - stream2 6776 Frames / second
+2023-05-09 05:12:02.865 - INFO - stream3 6776 Frames / second
+2023-05-09 05:12:02.865 - INFO - stream_trans 1026 Frames / second
+2023-05-09 05:12:02.867 - INFO - Processing AllInitCommand_VHT.txt file....
+2023-05-09 05:12:02.868 - INFO - ---------------------------------------
+
+2023-05-09 05:12:02.937 - INFO - 
+         Testcase Command File = VHT-5.2.23.txt 
+
+2023-05-09 05:12:02.937 - INFO - START: TEST CASE [VHT-5.2.23.txt] 
+2023-05-09 05:12:02.937 - INFO - Processing VHT-5.2.23.txt file....
+2023-05-09 05:12:02.937 - INFO - ---------------------------------------
+
+2023-05-09 05:12:03.019 - INFO - 
+===============Testbed device check==============================
+2023-05-09 05:12:03.019 - INFO - Device [HostAPD <RADIUSSERVER>] control network IP and Port not found, skipping...
+2023-05-09 05:12:03.019 - INFO - Device [QuantennaVHT <AP>] control network IP and Port not found, skipping...
+2023-05-09 05:12:03.019 - INFO - Device [intelvht <STA>] control network IP and Port not found, skipping...
+2023-05-09 05:12:03.020 - INFO - Device [realtekvht <STA>] control network IP and Port not found, skipping...
+2023-05-09 05:12:03.020 - INFO - Device [ralinkvht <STA>] control network IP and Port not found, skipping...
+2023-05-09 05:12:03.020 - INFO - Device [intel11n <STA>] control network IP and Port not found, skipping...
+2023-05-09 05:12:03.022 - INFO - Device [broadcomvht_11n <STA>] control network IP and Port not found, skipping...
+2023-05-09 05:12:03.022 - INFO - Device [marvellvht_11n <STA>] control network IP and Port not found, skipping...
+2023-05-09 05:12:03.023 - INFO - Device [quantennavht <STA>] control network IP and Port not found, skipping...
+2023-05-09 05:12:03.130 - INFO - 
+        ~~~~~  VHT-5G Testbed Qualification  ~~~~~
+
+2023-05-09 05:12:03.138 - INFO - 
+        ~~~~~ Wi-Fi Test Suite UCC script version for VHT Consolidation ~~~~~
+
+2023-05-09 05:12:03.144 - INFO - echo ~~~~ $scripts_version = VHT_11032021v01 ~~~~
+2023-05-09 05:12:03.153 - INFO - 
+        ~~~~~ [inside of Get-Version-Info.txt} ~~~~~
+
+2023-05-09 05:12:03.163 - INFO - 
+        ~~~~~ [ Getting Version Info ] ~~~~~
+
+2023-05-09 05:12:03.174 - INFO - DUT (192.168.250.112:15000) ---> device_get_info
+2023-05-09 05:12:03.223 - INFO - DUT (192.168.250.112:15000) <-- status,COMPLETE,vendor,Broadcom,model,BCM947094-wet,version,768015
+
+2023-05-09 05:12:03.266 - INFO - SNIFFER (192.168.250.5:9999) ---> sniffer_get_info
+2023-05-09 05:12:03.338 - INFO - SNIFFER (192.168.250.5:9999) <-- status,COMPLETE,WfaSnifferVersion,WTS_v9.2.8-VHT_Fedora,SnifferSTA,Other,SwInfo,UnKnown_2.6.38.6-26.rc1.fc15.i686.PAE,WiresharkVersion,1.8.1
+
+2023-05-09 05:12:03.344 - INFO - 
+        ~~~~~ Broadcomvht STA ~~~~~
+
+2023-05-09 05:12:03.358 - INFO - BROADCOM-STA (192.168.250.112:15000) ---> ca_get_version
+2023-05-09 05:12:03.410 - INFO - BROADCOM-STA (192.168.250.112:15000) <-- status,COMPLETE,version,2.55.46
+
+2023-05-09 05:12:03.411 - INFO - BROADCOM-STA (192.168.250.112:15000) ---> device_get_info
+2023-05-09 05:12:03.470 - INFO - BROADCOM-STA (192.168.250.112:15000) <-- status,COMPLETE,vendor,Broadcom,model,BCM947094-wet,version,768015
+
+2023-05-09 05:12:03.638 - INFO - 
+        ~~~~~ Ralinkvht STA ~~~~~
+
+2023-05-09 05:12:03.644 - INFO - 
+        ~~~~~ Qualcommvht STA ~~~~~
+
+2023-05-09 05:12:03.654 - INFO - QUALCOMM-STA (192.168.250.122:9000) ---> ca_get_version
+2023-05-09 05:12:03.661 - INFO - QUALCOMM-STA (192.168.250.122:9000) <-- status,COMPLETE,version,1.0
+2023-05-09 05:12:03.664 - INFO - QUALCOMM-STA (192.168.250.122:9000) ---> device_get_info
+2023-05-09 05:12:03.717 - INFO - QUALCOMM-STA (192.168.250.122:9000) <-- status,COMPLETE,vendor,QCA,model,LinuxSTA,version,drv=v3.18-36602-g2dd6906/fw_host_ver="3.0.4_r00041.2_standard_ap161"/wpas=v2.5-devel/hapd=v2.5-devel/sigma=NHSS.ILQ.4.0.r10-00139-S_BL
+
+2023-05-09 05:12:03.877 - INFO - 
+        ~~~~~ Marvellvht STA ~~~~~
+
+2023-05-09 05:12:03.882 - INFO - MARVELL-STA (192.168.250.32:9000) ---> ca_get_version
+2023-05-09 05:12:04.887 - INFO - MARVELL-STA (192.168.250.32:9000) <-- status,COMPLETE,version,Mrvl-WFASigma_ver_M2.0_R0.10(15:31:53 Mar 15 2017)
+
+2023-05-09 05:12:04.890 - INFO - MARVELL-STA (192.168.250.32:9000) ---> device_get_info
+2023-05-09 05:12:05.894 - INFO - MARVELL-STA (192.168.250.32:9000) <-- status,COMPLETE,firmware,Mrvl-WFASigma_ver_M2.0_R0.10(15:31:53 Mar 15 2017)
+
+2023-05-09 05:12:06.046 - INFO - 
+        ~~~~~ Qualcommvht AP ~~~~~
+
+2023-05-09 05:12:06.053 - INFO - QualcommVHT (192.165.100.123:9000) ---> ca_get_version
+2023-05-09 05:12:06.062 - INFO - QualcommVHT (192.165.100.123:9000) <-- status,COMPLETE,version,1.0
+2023-05-09 05:12:06.065 - INFO - QualcommVHT (192.165.100.123:9000) ---> device_get_info
+2023-05-09 05:12:06.125 - INFO - QualcommVHT (192.165.100.123:9000) <-- status,COMPLETE,vendor,QCA,model,LinuxAP,version,drv=v3.18-36602-g2dd6906/fw_host_ver="3.0.4_r00041.2_standard_ap161"/wpas=v2.5-devel/hapd=v2.5-devel/sigma=NHSS.ILQ.4.0.r10-00139-S_BL
+
+2023-05-09 05:12:06.293 - INFO - 
+        ~~~~~ Broadcomvht AP ~~~~~
+
+2023-05-09 05:12:06.303 - INFO - BroadcomVHT (192.165.1.3:15000) ---> ca_get_version
+2023-05-09 05:12:06.355 - INFO - BroadcomVHT (192.165.1.3:15000) <-- status,COMPLETE,version,2.55.46
+
+2023-05-09 05:12:06.358 - INFO - BroadcomVHT (192.165.1.3:15000) ---> device_get_info
+2023-05-09 05:12:06.418 - INFO - BroadcomVHT (192.165.1.3:15000) <-- status,COMPLETE,vendor,Broadcom,model,BCM947094,version,768015
+
+2023-05-09 05:12:06.582 - INFO - 
+        ~~~~~ Ralinkvht AP ~~~~~
+
+2023-05-09 05:12:06.591 - INFO - RalinkAc (192.165.1.7:7000) ---> ca_get_version
+2023-05-09 05:12:06.638 - INFO - RalinkAc (192.165.1.7:7000) <-- status,COMPLETE,Wi-Fi Test Suite-10.10.1
+
+2023-05-09 05:12:06.641 - INFO - 
+        ~~~~~ Marvell8964vht AP ~~~~~
+
+2023-05-09 05:12:06.650 - INFO - Marvell8964VHT (192.165.100.30:7000) ---> ca_get_version
+2023-05-09 05:12:07.655 - INFO - Marvell8964VHT (192.165.100.30:7000) <-- status,COMPLETE,version,PCEDUT-SIGMA-8.3.0
+
+2023-05-09 05:12:07.663 - INFO - Marvell8964VHT (192.165.100.30:7000) ---> device_get_info
+2023-05-09 05:12:08.696 - INFO - Marvell8964VHT (192.165.100.30:7000) <-- status,COMPLETE,vendor,Marvell,model,W8964,version,9.0.6.0.p9-W8964, firmware,9.1.7.111
+
+2023-05-09 05:12:08.809 - INFO - 
+        ~~~~~ [Inside of VHT-testbed-reset.txt] ~~~~~
+
+2023-05-09 05:12:08.816 - INFO - 
+        ~~~~~ [ Resetting testbed STA] ~~~~~
+
+2023-05-09 05:12:08.825 - INFO - 
+        ~~~~~ [ Resetting VHT STA 1 Broadcomvht] ~~~~~
+
+2023-05-09 05:12:08.832 - INFO - BROADCOM-STA (192.168.250.112:15000) ---> device_list_interfaces,interfaceType,802.11
+2023-05-09 05:12:08.892 - INFO - BROADCOM-STA (192.168.250.112:15000) <-- status,COMPLETE,interfaceType,802.11,interfaceId,eth1
+
+2023-05-09 05:12:08.895 - INFO - BROADCOM-STA (192.168.250.112:15000) ---> sta_reset_default,interface,eth1,prog,VHT,type,testbed
+2023-05-09 05:13:48.759 - INFO - BROADCOM-STA (192.168.250.112:15000) <-- status,COMPLETE
+
+2023-05-09 05:13:48.760 - INFO - 
+        ~~~~~ [ Resetting VHT STA 2 Ralinkvht] ~~~~~
+
+2023-05-09 05:13:48.769 - INFO - 
+        ~~~~~ [ Resetting VHT STA 3 Qualcommvht] ~~~~~
+
+2023-05-09 05:13:48.779 - INFO - QUALCOMM-STA (192.168.250.122:9000) ---> device_list_interfaces,interfaceType,802.11
+2023-05-09 05:13:48.780 - INFO - QUALCOMM-STA (192.168.250.122:9000) <-- status,COMPLETE,interfaceType,802.11,interfaceID,ath0
+2023-05-09 05:13:48.785 - INFO - QUALCOMM-STA (192.168.250.122:9000) ---> sta_reset_default,interface,ath0,prog,VHT,type,testbed
+2023-05-09 05:14:01.516 - INFO - QUALCOMM-STA (192.168.250.122:9000) <-- status,COMPLETE
+
+2023-05-09 05:14:01.523 - INFO - 
+        ~~~~~ [ Resetting VHT STA 4 Marvelvht] ~~~~~
+
+2023-05-09 05:14:01.529 - INFO - MARVELL-STA (192.168.250.32:9000) ---> device_list_interfaces,interfaceType,802.11
+2023-05-09 05:14:02.532 - INFO - MARVELL-STA (192.168.250.32:9000) <-- status,COMPLETE,interfaceType,802.11,interfaceID,mlan0
+
+2023-05-09 05:14:02.539 - INFO - MARVELL-STA (192.168.250.32:9000) ---> sta_reset_default,interface,mlan0,prog,VHT,type,testbed
+2023-05-09 05:14:06.056 - INFO - MARVELL-STA (192.168.250.32:9000) <-- status,COMPLETE
+
+2023-05-09 05:14:06.062 - INFO - 
+        ~~~~~ [ Resetting testbed AP] ~~~~~
+
+2023-05-09 05:14:06.075 - INFO - 
+        ~~~~~ [ Resetting VHT AP 1 Qualcommvht] ~~~~~
+
+2023-05-09 05:14:06.081 - INFO - QualcommVHT (192.165.100.123:9000) ---> ap_reset_default,NAME,BroadcomVHT,program,VHT,type,Testbed
+2023-05-09 05:14:06.638 - INFO - QualcommVHT (192.165.100.123:9000) <-- status,COMPLETE
+
+2023-05-09 05:14:06.644 - INFO - 
+        ~~~~~ [ Resetting VHT AP 2 Broadcomvht] ~~~~~
+
+2023-05-09 05:14:06.664 - INFO - BroadcomVHT (192.165.1.3:15000) ---> ap_reset_default,NAME,QualcommVHT,program,VHT,type,Testbed
+2023-05-09 05:15:26.322 - INFO - BroadcomVHT (192.165.1.3:15000) <-- status,COMPLETE
+
+2023-05-09 05:15:26.329 - INFO - 
+        ~~~~~ [ Resetting VHT AP 3 Ralinkvht] ~~~~~
+
+2023-05-09 05:15:26.336 - INFO - Marvell8964VHT (192.165.100.30:7000) ---> ap_reset_default,NAME,Marvell8964VHT,program,VHT,type,Testbed
+2023-05-09 05:15:31.484 - INFO - Marvell8964VHT (192.165.100.30:7000) <-- status,COMPLETE,ap_reset_default OK
+
+2023-05-09 05:15:31.490 - INFO - 
+        ~~~~~ [ Resetting VHT AP 4 Marvellvht] ~~~~~
+
+2023-05-09 05:15:31.500 - INFO - RalinkAc (192.165.1.7:7000) ---> ap_reset_default,NAME,RalinkAc,program,VHT,type,Testbed
+2023-05-09 05:15:32.505 - INFO - RalinkAc (192.165.1.7:7000) <-- status,COMPLETE,Success
+
+2023-05-09 05:15:32.512 - INFO - 
+        ~~~~~ Turning OFF radio ~~~~~
+
+2023-05-09 05:15:32.519 - INFO - 
+        ~~~~~ Inside PowerOnOffAPs.txt ~~~~~
+
+2023-05-09 05:15:32.526 - INFO - RalinkAc (192.165.1.7:7000) ---> AccessPoint,RalinkAcAP,IPAddress,192.165.100.144,UserName,,Password,,HostName,#,PowerSwitchPort,0
+2023-05-09 05:15:32.575 - INFO - RalinkAc (192.165.1.7:7000) <-- status,COMPLETE,Access Point Added
+
+2023-05-09 05:15:32.578 - INFO - 
+        ~~~~~ [Inside of RadioOff.txt] ~~~~~
+
+2023-05-09 05:15:32.588 - INFO - QualcommVHT (192.165.100.123:9000) ---> ap_set_wireless,NAME,QualcommVHT,program,VHT,radio,off
+2023-05-09 05:15:33.216 - INFO - QualcommVHT (192.165.100.123:9000) <-- status,COMPLETE
+
+2023-05-09 05:15:33.221 - INFO - BroadcomVHT (192.165.1.3:15000) ---> ap_set_wireless,NAME,BroadcomVHT,program,VHT,radio,off
+2023-05-09 05:15:33.270 - INFO - BroadcomVHT (192.165.1.3:15000) <-- status,COMPLETE
+
+2023-05-09 05:15:33.275 - INFO - Marvell8964VHT (192.165.100.30:7000) ---> ap_set_wireless,NAME,Marvell8964VHT,program,VHT,radio,off
+2023-05-09 05:15:34.411 - INFO - Marvell8964VHT (192.165.100.30:7000) <-- status,COMPLETE,ap_set_wireless OK
+
+2023-05-09 05:15:34.417 - INFO - RalinkAc (192.165.1.7:7000) ---> ap_set_wireless,NAME,RalinkAc,program,VHT,radio,off
+2023-05-09 05:15:35.424 - INFO - RalinkAc (192.165.1.7:7000) <-- status,COMPLETE,Success
+
+2023-05-09 05:15:35.430 - INFO - 
+        ~~~~~ UCC: Processing PowerOnOffAPs.txt file ~~~~~
+
+2023-05-09 05:15:35.441 - INFO - 
+        ~~~~~ Inside PowerOnOffAPs.txt ~~~~~
+
+2023-05-09 05:15:35.448 - INFO - RalinkAc (192.165.1.7:7000) ---> AccessPoint,RalinkAcAP,IPAddress,192.165.100.144,UserName,,Password,,HostName,#,PowerSwitchPort,0
+2023-05-09 05:15:35.506 - INFO - RalinkAc (192.165.1.7:7000) <-- status,COMPLETE,Access Point Added
+
+2023-05-09 05:15:35.509 - INFO - 
+        ~~~~~ Starting sniffer ~~~~~
+
+2023-05-09 05:15:35.517 - INFO - SNIFFER (192.168.250.5:9999) ---> sniffer_control_start,filename,_5223-step5,channel,52,bandwidth,80
+2023-05-09 05:15:35.687 - INFO - SNIFFER (192.168.250.5:9999) <-- status,COMPLETE
+
+2023-05-09 05:15:35.696 - INFO - 
+        ~~~~~ UCC: Processing Testbed-5.2.23-WPA2-PSK.txt file ~~~~~
+
+2023-05-09 05:15:35.703 - INFO - 
+        ~~~~~ [ Configuring Testbed AP ] ~~~~~
+
+2023-05-09 05:15:35.713 - INFO - BroadcomVHT (192.165.1.3:15000) ---> ap_reset_default,NAME,BroadcomVHT,program,VHT,type,Testbed
+2023-05-09 05:16:55.368 - INFO - BroadcomVHT (192.165.1.3:15000) <-- status,COMPLETE
+
+2023-05-09 05:16:55.375 - INFO - BroadcomVHT (192.165.1.3:15000) ---> ap_set_wireless,NAME,BroadcomVHT,program,VHT,CHANNEL,52,SSID,80211h,MODE,11ac
+2023-05-09 05:16:55.558 - INFO - BroadcomVHT (192.165.1.3:15000) <-- status,COMPLETE
+
+2023-05-09 05:16:55.565 - INFO - BroadcomVHT (192.165.1.3:15000) ---> ap_set_security,NAME,BroadcomVHT,KEYMGNT,WPA2-PSK,PSK,12345678
+2023-05-09 05:16:55.828 - INFO - BroadcomVHT (192.165.1.3:15000) <-- status,COMPLETE
+
+2023-05-09 05:16:55.834 - INFO - BroadcomVHT (192.165.1.3:15000) ---> ap_set_wireless,NAME,BroadcomVHT,program,VHT,WIDTH,80
+2023-05-09 05:16:55.917 - INFO - BroadcomVHT (192.165.1.3:15000) <-- status,COMPLETE
+
+2023-05-09 05:16:55.924 - INFO - BroadcomVHT (192.165.1.3:15000) ---> ap_set_wireless,NAME,BroadcomVHT,program,VHT,SPATIAL_TX_STREAM,2SS,SPATIAL_RX_STREAM,2SS
+2023-05-09 05:16:55.976 - INFO - BroadcomVHT (192.165.1.3:15000) <-- status,COMPLETE
+
+2023-05-09 05:16:55.980 - INFO - BroadcomVHT (192.165.1.3:15000) ---> ap_set_wireless,NAME,BroadcomVHT,program,VHT,SpectrumMgt,enable
+2023-05-09 05:16:56.039 - INFO - BroadcomVHT (192.165.1.3:15000) <-- status,COMPLETE
+
+2023-05-09 05:16:56.043 - INFO - BroadcomVHT (192.165.1.3:15000) ---> ap_config_commit,NAME,BroadcomVHT
+2023-05-09 05:17:09.269 - INFO - BroadcomVHT (192.165.1.3:15000) <-- status,COMPLETE
+
+2023-05-09 05:17:09.272 - INFO - 
+        ~~~~~ UCC: Processing DUT-WPA2-PSK.txt file ~~~~~
+
+2023-05-09 05:17:09.278 - INFO - 
+        ~~~~~ Inside DUT-WPA2-PSK.txt file ~~~~~
+
+2023-05-09 05:17:09.286 - INFO - 
+        ~~~~~ [ Configuring DUT ] ~~~~~
+
+2023-05-09 05:17:09.295 - INFO - DUT (192.168.250.112:15000) ---> ca_get_version
+2023-05-09 05:17:09.420 - INFO - DUT (192.168.250.112:15000) <-- status,COMPLETE,version,2.55.46
+
+2023-05-09 05:17:09.421 - INFO - DUT (192.168.250.112:15000) ---> device_get_info
+2023-05-09 05:17:09.482 - INFO - DUT (192.168.250.112:15000) <-- status,COMPLETE,vendor,Broadcom,model,BCM947094-wet,version,768015
+
+2023-05-09 05:17:09.588 - INFO - DUT (192.168.250.112:15000) ---> device_list_interfaces,interfaceType,802.11
+2023-05-09 05:17:09.638 - INFO - DUT (192.168.250.112:15000) <-- status,COMPLETE,interfaceType,802.11,interfaceId,eth1
+
+2023-05-09 05:17:09.640 - INFO - DUT (192.168.250.112:15000) ---> sta_reset_default,interface,eth1,prog,VHT,type,DUT
+2023-05-09 05:18:29.999 - INFO - DUT (192.168.250.112:15000) <-- status,COMPLETE
+
+2023-05-09 05:18:30.005 - INFO - DUT (192.168.250.112:15000) ---> sta_get_info,interface,eth1
+2023-05-09 05:18:30.052 - INFO - DUT (192.168.250.112:15000) <-- status,COMPLETE,vendorInfo_1,Broadcom,vendorInfo_2,4366
+
+2023-05-09 05:18:30.059 - INFO - DUT (192.168.250.112:15000) ---> sta_get_mac_address,interface,eth1
+2023-05-09 05:18:30.111 - INFO - DUT (192.168.250.112:15000) <-- status,COMPLETE,mac_address,00:90:4C:27:F1:F4
+
+2023-05-09 05:18:30.117 - INFO - DUT (192.168.250.112:15000) ---> sta_set_psk,interface,eth1,ssid,80211h,passphrase,12345678,encpType,aes-ccmp,keymgmttype,wpa2
+2023-05-09 05:18:43.727 - INFO - DUT (192.168.250.112:15000) <-- status,COMPLETE
+
+2023-05-09 05:18:43.734 - INFO - DUT (192.168.250.112:15000) ---> sta_set_ip_config,interface,eth1,dhcp,0,ip,192.165.100.115,mask,255.255.0.0
+2023-05-09 05:18:43.798 - INFO - DUT (192.168.250.112:15000) <-- status,COMPLETE
+
+2023-05-09 05:18:43.799 - INFO - DUT (192.168.250.112:15000) ---> sta_associate,interface,eth1,ssid,80211h
+2023-05-09 05:19:01.230 - INFO - DUT (192.168.250.112:15000) <-- status,COMPLETE
+
+2023-05-09 05:19:11.240 - INFO - DUT (192.168.250.112:15000) ---> sta_is_connected,interface,eth1
+2023-05-09 05:19:11.378 - INFO - DUT (192.168.250.112:15000) <-- status,COMPLETE,connected,1
+
+2023-05-09 05:19:11.387 - INFO - DUT (192.168.250.112:15000) ---> sta_get_bssid,interface,eth1
+2023-05-09 05:19:11.438 - INFO - DUT (192.168.250.112:15000) <-- status,COMPLETE,bssid,00:90:4C:27:F1:85
+
+2023-05-09 05:19:11.447 - INFO - DUT (192.168.250.112:15000) ---> sta_get_ip_config,interface,eth1
+2023-05-09 05:19:11.493 - INFO - DUT (192.168.250.112:15000) <-- status,COMPLETE,dhcp,0,ip,192.165.100.115,netmask,255.255.0.0,dns,0.0.0.0
+
+2023-05-09 05:19:11.494 - INFO - DUT (192.168.250.112:15000) ---> traffic_agent_reset
+2023-05-09 05:19:12.500 - INFO - DUT (192.168.250.112:15000) <-- status,COMPLETE
+
+2023-05-09 05:19:12.506 - INFO - DUT (192.168.250.112:15000) ---> traffic_send_ping,destination,192.165.100.50,framesize,1000,frameRate,1,duration,10
+2023-05-09 05:19:13.522 - INFO - DUT (192.168.250.112:15000) <-- status,COMPLETE,streamID,103
+
+2023-05-09 05:19:13.536 - INFO - Sleep... 10 seconds
+2023-05-09 05:19:23.542 - INFO - DUT (192.168.250.112:15000) ---> traffic_stop_ping,streamID,103
+2023-05-09 05:19:26.678 - INFO - DUT (192.168.250.112:15000) <-- status,COMPLETE,sent,10,replies,10,consectimeout,0
+
+2023-05-09 05:19:26.684 - INFO - 
+        ~~~~~ End of DUT-WPA2-PSK.txt file ~~~~~
+
+2023-05-09 05:19:26.696 - INFO - 
+        ~~~~~ UCC: Processing DUT_MACrandom.txt file ~~~~~
+
+2023-05-09 05:19:26.703 - INFO - 
+        ~~~~~ Get MAC Address ~~~~~
+
+2023-05-09 05:19:26.711 - INFO - Sleep... 10 seconds
+2023-05-09 05:19:36.723 - INFO - DUT (192.168.250.112:15000) ---> traffic_agent_reset
+2023-05-09 05:19:37.792 - INFO - DUT (192.168.250.112:15000) <-- status,COMPLETE
+
+2023-05-09 05:19:37.799 - INFO - DUT (192.168.250.112:15000) ---> traffic_send_ping,destination,192.165.100.50,framesize,1000,frameRate,2,duration,60
+2023-05-09 05:19:38.821 - INFO - DUT (192.168.250.112:15000) <-- status,COMPLETE,streamID,104
+
+2023-05-09 05:19:38.831 - INFO - Sleep... 3 seconds
+2023-05-09 05:19:41.839 - INFO - 
+        ~~~~~ Initiating channel switch ~~~~~
+
+2023-05-09 05:19:41.842 - INFO - BroadcomVHT (192.165.1.3:15000) ---> ap_set_rfeature,NAME,BroadcomVHT,type,VHT,chnum_band,100;80
+2023-05-09 05:19:41.897 - INFO - BroadcomVHT (192.165.1.3:15000) <-- status,COMPLETE
+
+2023-05-09 05:19:41.900 - INFO - Sleep... 40 seconds
+2023-05-09 05:20:21.908 - INFO - 
+        ~~~~~ Stopping sniffer ~~~~~
+
+2023-05-09 05:20:25.924 - INFO - SNIFFER (192.168.250.5:9999) ---> sniffer_control_stop
+2023-05-09 05:20:26.053 - INFO - SNIFFER (192.168.250.5:9999) <-- status,COMPLETE
+
+2023-05-09 05:20:26.059 - INFO - 
+        ~~~~~ Step 5 - sniffer check ~~~~~
+
+2023-05-09 05:20:26.075 - INFO - SNIFFER (192.168.250.5:9999) ---> sniffer_control_filter_capture,infile,_5223-step5,outfile,5223-step5,srcmac,00:90:4c:27:f1:85,framename,beacon,nframes,6,order,last
+2023-05-09 05:20:43.128 - INFO - SNIFFER (192.168.250.5:9999) <-- status,COMPLETE,FilterStatus,SUCCESS,FrameCount,6
+
+
+2023-05-09 05:20:43.130 - INFO - SNIFFER (192.168.250.5:9999) ---> sniffer_control_field_check,filename,_5223-step5,srcmac,00:90:4c:27:f1:85,framename,beacon,CSA_IE,1
+2023-05-09 05:20:45.493 - INFO - SNIFFER (192.168.250.5:9999) <-- status,COMPLETE,CheckResult,SUCCESS
+
+2023-05-09 05:20:45.502 - INFO - SNIFFER (192.168.250.5:9999) ---> sniffer_control_field_check,filename,_5223-step5,srcmac,00:90:4c:27:f1:85,framename,beacon,CSW_IE,1
+2023-05-09 05:20:49.644 - INFO - SNIFFER (192.168.250.5:9999) <-- status,COMPLETE,CheckResult,SUCCESS
+
+2023-05-09 05:20:49.644 - INFO - SNIFFER (192.168.250.5:9999) ---> sniffer_control_field_check,filename,_5223-step5,srcmac,00:90:4c:27:f1:85,framename,beacon,CSW_IE_WB,1
+2023-05-09 05:20:53.773 - INFO - SNIFFER (192.168.250.5:9999) <-- status,COMPLETE,CheckResult,SUCCESS
+
+2023-05-09 05:20:53.779 - INFO - Sleep... 3 seconds
+2023-05-09 05:20:56.796 - INFO - DUT (192.168.250.112:15000) ---> traffic_stop_ping,streamID,104
+2023-05-09 05:20:59.848 - INFO - DUT (192.168.250.112:15000) <-- status,COMPLETE,sent,120,replies,9,consectimeout,0
+
+2023-05-09 05:20:59.854 - INFO - DUT (192.168.250.112:15000) ---> traffic_agent_reset
+2023-05-09 05:21:00.859 - INFO - DUT (192.168.250.112:15000) <-- status,COMPLETE
+
+2023-05-09 05:21:00.865 - INFO - DUT (192.168.250.112:15000) ---> traffic_send_ping,destination,192.165.100.50,framesize,1000,frameRate,2,duration,30
+2023-05-09 05:21:01.891 - INFO - DUT (192.168.250.112:15000) <-- status,COMPLETE,streamID,105
+
+2023-05-09 05:21:01.897 - INFO - 
+        ~~~~~ Starting sniffer ~~~~~
+
+2023-05-09 05:21:01.905 - INFO - SNIFFER (192.168.250.5:9999) ---> sniffer_control_start,filename,_5223-step5_2,channel,52,bandwidth,80
+2023-05-09 05:21:02.009 - INFO - SNIFFER (192.168.250.5:9999) <-- status,COMPLETE
+
+2023-05-09 05:21:02.016 - INFO - Sleep... 30 seconds
+2023-05-09 05:21:36.032 - INFO - SNIFFER (192.168.250.5:9999) ---> sniffer_control_stop
+2023-05-09 05:21:36.171 - INFO - SNIFFER (192.168.250.5:9999) <-- status,COMPLETE
+
+2023-05-09 05:21:36.176 - INFO - 
+        ~~~~~ Checking if STAUT transmits any frame in first channel ~~~~~
+
+2023-05-09 05:21:36.184 - INFO - SNIFFER (192.168.250.5:9999) ---> sniffer_control_filter_capture,infile,_5223-step5_2,outfile,5223-step5_2,srcmac,00:90:4C:27:F1:F4,framename,anydata,nframes,200
+2023-05-09 05:21:37.954 - INFO - SNIFFER (192.168.250.5:9999) <-- status,COMPLETE,FilterStatus,NoPacketsFound
+
+2023-05-09 05:21:37.963 - INFO - DUT (192.168.250.112:15000) ---> traffic_stop_ping,streamID,105
+2023-05-09 05:21:41.016 - INFO - DUT (192.168.250.112:15000) <-- status,COMPLETE,sent,60,replies,60,consectimeout,0
+
+2023-05-09 05:21:41.023 - INFO - MSG: Test case completed successfully
+2023-05-09 05:21:41.025 - INFO - 
+    FINAL TEST RESULT  --->            PASS
+2023-05-09 05:21:41.026 - INFO -      END: TEST CASE [VHT-5.2.23]
+2023-05-09 05:21:41.107 - INFO - PASS
+2023-05-09 05:21:41.115 - INFO - Execution Time [578.97] seconds
+2023-05-09 05:21:41.131 - INFO - ---------------------------------------
+2023-05-09 05:21:41.132 - INFO - Performing Post Test Execution Procedure in PostTestExec.txt file
+2023-05-09 05:21:41.132 - INFO - PostTestExec.txt file does not exist
+2023-05-09 05:21:41.132 - INFO - Stopping FTP server

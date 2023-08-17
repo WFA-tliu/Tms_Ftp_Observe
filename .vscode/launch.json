@@ -1,0 +1,71 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+			 "name": "TmsClient.py launch printConfig",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\src\\TmsClient.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "args": ["-d", "2", "-printConfig"]
+        }
+		{
+			"name": "TmsClient.py launch status",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\src\\TmsClient.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "args": ["-d", "2", "-status"]
+        }
+		{
+			"name": "TmsClient.py launch wfaStaffPost",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\src\\TmsClient.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "args": ["-d", "2", "-wfaStaffPost"]
+        }
+		{
+			"name": "TmsClient.py launch run test case with program and test case ID given",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\src\\TmsClient.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "args": ["-d", "2", "-run", "WFD", "WFD-5.1.1"]
+        }
+        {
+            "name": "TmsClient.py manual run: TMS+FTP",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\src\\TmsClient.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "args": ["-d", "2", "-wfaStaffManualRun", "VHT", "VHT-5.2.23"]
+        }
+        {
+            "name": "TmsClient.py manual run: Only FTP",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\src\\TmsClient.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "args": ["-d", "2", "-wfaStaffManualRun_only_ftp", "VHT", "VHT-5.2.23"]
+        }
+        {
+            "name": "TmsClient.py download log from FTP",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\src\\TmsClient.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "args": ["-d", "2", "-DownloadLogFromftp"]
+        }
+    ]
+}
